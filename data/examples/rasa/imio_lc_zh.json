@@ -1,0 +1,2838 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "开灯",
+        "intent": "light-on",
+        "entities": []
+      },
+      {
+        "text": "打开灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 2,
+            "value": "灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的壁灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的顶灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的吊灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "吊灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的台灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "台灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的台灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "台灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的壁灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的吊灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "吊灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的射灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅东墙的壁灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "东墙",
+            "entity": "wall"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅南墙的壁灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "南墙",
+            "entity": "wall"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅西墙的灯带打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "西墙",
+            "entity": "wall"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "灯带",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅北墙的壁灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "北墙",
+            "entity": "wall"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卫生间的壁灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "卫生间",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卫生间的化妆灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "卫生间",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "化妆灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卫生间的顶灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "卫生间",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把洗手间的壁灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "洗手间",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把洗手间的顶灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "洗手间",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把厕所的顶灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厕所",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把厕所的壁灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厕所",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把书房的壁灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把书房的台灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "台灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把书房的灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把书房的落地灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "落地灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把书房的阅读灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "阅读灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把厨房的灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厨房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把厨房的主灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厨房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把玄关的灯带打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "玄关",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "灯带",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把玄关的射灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "玄关",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把门廊的壁灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "门廊",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "打开卧室的灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 6,
+            "value": "灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "打开卧室的吊灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "吊灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "打开玄关的顶灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "玄关",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "打开门廊的射灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "门廊",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "打开客厅的顶灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "打开客厅东墙的壁灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "东墙",
+            "entity": "wall"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "打开客厅西墙的射灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "西墙",
+            "entity": "wall"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "打开卫生间的化妆灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "卫生间",
+            "entity": "room"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "化妆灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "打开洗手间的射灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "洗手间",
+            "entity": "room"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "打开书房的顶灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "打开书房的台灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "台灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "打开书房的落地灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "落地灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "打开书房的阅读灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "阅读灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "打开厨房的顶灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "厨房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "打开厨房的射灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "厨房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关了灯",
+        "intent": "light-off",
+        "entities": []
+      },
+      {
+        "text": "把灯关了",
+        "intent": "light-off",
+        "entities": []
+      },
+      {
+        "text": "把卧室的灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的壁灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的顶灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的吊灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "吊灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的台灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "台灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的台灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "台灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的壁灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的吊灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "吊灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的射灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅东墙的壁灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "东墙",
+            "entity": "wall"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卫生间的壁灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "卫生间",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卫生间的化妆灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "卫生间",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "化妆灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卫生间的顶灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "卫生间",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把洗手间的壁灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "洗手间",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把洗手间的顶灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "洗手间",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把厕所的顶灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厕所",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把厕所的壁灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厕所",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把书房的壁灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把书房的台灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "台灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把书房的灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把书房的落地灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "落地灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把书房的阅读灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "阅读灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把厨房的灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厨房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把厨房的主灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厨房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把玄关的灯带关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "玄关",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "灯带",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把玄关的射灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "玄关",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把门廊的壁灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "门廊",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关了卧室的灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 6,
+            "value": "灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关了卧室的吊灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "吊灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关了玄关的顶灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "玄关",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关了门廊的射灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "门廊",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关了客厅的顶灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关了客厅东墙的壁灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "东墙",
+            "entity": "wall"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关了客厅西墙的射灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "西墙",
+            "entity": "wall"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关了卫生间的化妆灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "卫生间",
+            "entity": "room"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "化妆灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关了洗手间的射灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "洗手间",
+            "entity": "room"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关了书房的顶灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关了书房的台灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "台灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关了书房的落地灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "落地灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关了书房的阅读灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "阅读灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关了厨房的顶灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "厨房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关了厨房的射灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "厨房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关灯",
+        "intent": "light-off",
+        "entities": []
+      },
+      {
+        "text": "把灯关了",
+        "intent": "light-off",
+        "entities": []
+      },
+      {
+        "text": "把卧室的壁灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关灯",
+        "intent": "light-off",
+        "entities": []
+      },
+      {
+        "text": "关掉灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 2,
+            "value": "灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的壁灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的顶灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的吊灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "吊灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的台灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "台灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的台灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "台灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的壁灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的吊灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "吊灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的射灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅东墙的壁灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "东墙",
+            "entity": "wall"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅西墙的灯带关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "西墙",
+            "entity": "wall"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "灯带",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卫生间的壁灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "卫生间",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卫生间的化妆灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "卫生间",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "化妆灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卫生间的顶灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "卫生间",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把洗手间的壁灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "洗手间",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把洗手间的顶灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "洗手间",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把厕所的顶灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厕所",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把厕所的壁灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厕所",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把书房的壁灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把书房的台灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "台灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把书房的灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把书房的落地灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "落地灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把书房的阅读灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "阅读灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把厨房的灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厨房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把厨房的主灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厨房",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把玄关的灯带关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "玄关",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "灯带",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把玄关的射灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "玄关",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把门廊的壁灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "门廊",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关掉卧室的灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 6,
+            "value": "灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关掉卧室的吊灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "吊灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关掉玄关的顶灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "玄关",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关掉门廊的射灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "门廊",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关掉客厅的顶灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关掉客厅东墙的壁灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "东墙",
+            "entity": "wall"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关掉客厅西墙的射灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "西墙",
+            "entity": "wall"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关掉卫生间的化妆灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "卫生间",
+            "entity": "room"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "化妆灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关掉洗手间的射灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "洗手间",
+            "entity": "room"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关掉书房的顶灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关掉书房的台灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "台灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关掉书房的落地灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "落地灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关掉书房的阅读灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "书房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "阅读灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关掉厨房的顶灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "厨房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "顶灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关掉厨房的射灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "厨房",
+            "entity": "room"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "射灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "关灯",
+        "intent": "light-off",
+        "entities": []
+      },
+      {
+        "text": "把灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 2,
+            "value": "灯",
+            "entity": "lamp"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "关掉",
+            "entity": "off"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的壁灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的灯带调成白色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "灯带",
+            "entity": "lamp"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "白色",
+            "entity": "color"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的壁灯调成紫色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "紫色",
+            "entity": "color"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的壁灯调成蓝色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "蓝色",
+            "entity": "color"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的壁灯调成绿色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "绿色",
+            "entity": "color"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的壁灯调成橙色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "橙色",
+            "entity": "color"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的灯带调成红色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "灯带",
+            "entity": "lamp"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "红色",
+            "entity": "color"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的壁灯调成黄色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "黄色",
+            "entity": "color"
+          }
+        ]
+      },
+      {
+        "text": "灯光太亮了",
+        "intent": "light-dimming",
+        "entities": []
+      },
+      {
+        "text": "把灯调暗",
+        "intent": "light-dimming",
+        "entities": []
+      },
+      {
+        "text": "把卧室的壁灯调暗一点",
+        "intent": "light-dimming",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "卧室的壁灯太亮了",
+        "intent": "light-dimming",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "壁灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
+        "text": "卧室的灯太亮了",
+        "intent": "light-dimming",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "卧室",
+            "entity": "room"
+          }
+        ]
+      },
+      {
+        "text": "光线太暗了",
+        "intent": "light-brightening",
+        "entities": []
+      },
+      {
+        "text": "灯光太暗了",
+        "intent": "light-brightening",
+        "entities": []
+      },
+      {
+        "text": "把灯调亮",
+        "intent": "light-brightening",
+        "entities": []
+      },
+      {
+        "text": "卧室的灯太暗了",
+        "intent": "light-brightening",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "卧室",
+            "entity": "room"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的灯调亮一点",
+        "intent": "light-brightening",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的顶灯调亮一点",
+        "intent": "light-brightening",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "顶灯",
+            "entity": "room"
+          }
+        ]
+      }
+    ]
+  }
+}

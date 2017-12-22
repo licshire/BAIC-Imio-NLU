@@ -31,6 +31,24 @@
         ]
       },
       {
+        "text": "把阳台的灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "阳台",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
         "text": "把卧室的灯打开",
         "intent": "light-on",
         "entities": [
@@ -887,6 +905,24 @@
         "entities": []
       },
       {
+        "text": "把阳台的灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "阳台",
+            "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "灯",
+            "entity": "lamp"
+          }
+        ]
+      },
+      {
         "text": "把卧室的灯关了",
         "intent": "light-off",
         "entities": [
@@ -895,6 +931,12 @@
             "end": 3,
             "value": "卧室",
             "entity": "room"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "灯",
+            "entity": "lamp"
           }
         ]
       },
@@ -2523,12 +2565,6 @@
             "end": 2,
             "value": "灯",
             "entity": "lamp"
-          },
-          {
-            "start": 2,
-            "end": 4,
-            "value": "关掉",
-            "entity": "off"
           }
         ]
       },

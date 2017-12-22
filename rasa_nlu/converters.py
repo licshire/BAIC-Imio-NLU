@@ -258,6 +258,8 @@ def load_rasa_data(filename):
     entity = data['rasa_nlu_data'].get("entity_examples", list())
     regex_features = data['rasa_nlu_data'].get("regex_features", list())
     synonyms = data['rasa_nlu_data'].get("entity_synonyms", list())
+    print('[DEBUG OUTPUT] : regex_features =\n%s' % regex_features)
+    print('[DEBUG OUTPUT] : entity_synonyms =\n%s' % synonyms)
 
     entity_synonyms = get_entity_synonyms_dict(synonyms)
 
@@ -270,9 +272,11 @@ def load_rasa_data(filename):
     all_examples = common + intent + entity
     training_examples = []
     for e in all_examples:
+        #print('[DEBUG OUTPUT] training_example: %s' % e)
         data = e.copy()
         if "text" in data:
             del data["text"]
+        #print('[DEBUG OUTPUT] training_example data: %s' % data)
         training_examples.append(Message(e["text"], data))
 
     return TrainingData(training_examples, entity_synonyms, regex_features)

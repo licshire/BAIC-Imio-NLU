@@ -111,7 +111,9 @@ def do_train(config,  # type: RasaNLUConfig
     trainer = Trainer(config, component_builder)
     persistor = create_persistor(config)
     training_data = load_data(config['data'], config['language'])
+    print('>>>>>>>>>>>>>>>> [DEBUG TRAIN] Start')
     interpreter = trainer.train(training_data)
+    print('>>>>>>>>>>>>>>>> [DEBUG TRAIN] End')
     persisted_path = trainer.persist(config['path'], persistor,
                                      config['project'],
                                      config['fixed_model_name'])

@@ -39,6 +39,8 @@ class MitieNLP(Component):
     @classmethod
     def create(cls, config):
         import mitie
+        print('configs:')
+        print('%s' % config.items())
         return MitieNLP(config["mitie_file"], mitie.total_word_feature_extractor(config["mitie_file"]))
 
     @classmethod

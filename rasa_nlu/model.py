@@ -153,6 +153,8 @@ class Trainer(object):
 
         for i, component in enumerate(self.pipeline):
             logger.info("Starting to train component {}".format(component.name))
+            print('[>>>>>>>DEBUG] Type of component: %s' % type(component))
+            #print('[>>>>>>>DEBUG] Type of entity_examples: %s' % type(working_data.entity_examples))
             component.prepare_partial_processing(self.pipeline[:i], context)
             updates = component.train(working_data, self.config, **context)
             logger.info("Finished training component.")

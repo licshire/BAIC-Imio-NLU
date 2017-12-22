@@ -84,6 +84,9 @@ class TrainingData(object):
         self.regex_features = regex_features if regex_features else []
 
         self.validate()
+        #for e in self.training_examples:
+            #print(type(e))
+            #print('%s, %s, %s' % (e.text, e.time, e.data))
 
     def sanitice_examples(self, examples):
         # type: (List[Message]) -> List[Message]

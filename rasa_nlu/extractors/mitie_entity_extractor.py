@@ -84,14 +84,21 @@ class MitieEntityExtractor(EntityExtractor):
         trainer.num_threads = config["num_threads"]
         found_one_entity = False
         for example in training_data.entity_examples:
+            #print('[DEBUG] Type of Train Example: %s' % type(example))
             text = example.text
             tokens = example.get("tokens")
+            #print(tokens)
             sample = mitie.ner_training_instance([t.text for t in tokens])
             for ent in example.get("entities", []):
                 try:
                     # if the token is not aligned an exception will be raised
                     start, end = MitieEntityExtractor.find_entity(ent, text, tokens)
                 except ValueError as e:
+                    #print('[====== DEBUG STARTS HERE ====== ]:')
+                    #print('[DEBUG] entities:')
+                    #print(ent)
+                    #for token in tokens:
+                    #    print('[DEBUG][IN find_entity] token: (text=%s)(offset=%s)(end=%s)' % (token.text, token.offset, token.end))
                     logger.warning("Example skipped: {}".format(str(e)))
                     continue
                 try:

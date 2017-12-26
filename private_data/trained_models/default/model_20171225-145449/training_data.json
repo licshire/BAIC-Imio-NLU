@@ -1,0 +1,2892 @@
+{
+  "rasa_nlu_data": {
+    "entity_synonyms": [],
+    "regex_features": [],
+    "common_examples": [
+      {
+        "text": "\u5f00\u706f",
+        "intent": "light-on",
+        "entities": []
+      },
+      {
+        "text": "\u6253\u5f00\u706f",
+        "intent": "light-on",
+        "entities": []
+      },
+      {
+        "text": "\u628a\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": []
+      },
+      {
+        "text": "\u628a\u9633\u53f0\u7684\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u9633\u53f0",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u5927\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u5927\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u9876\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u540a\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u540a\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u53f0\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u53f0\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u53f0\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u53f0\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u4e3b\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u4e3b\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u540a\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u540a\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u5c04\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u5c04\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u4e1c\u5899\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u4e1c\u5899",
+            "start": 3,
+            "entity": "wall",
+            "end": 5
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 6,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u5357\u5899\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u5357\u5899",
+            "start": 3,
+            "entity": "wall",
+            "end": 5
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 6,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u897f\u5899\u7684\u706f\u5e26\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u897f\u5899",
+            "start": 3,
+            "entity": "wall",
+            "end": 5
+          },
+          {
+            "value": "\u706f\u5e26",
+            "start": 6,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u5317\u5899\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u5317\u5899",
+            "start": 3,
+            "entity": "wall",
+            "end": 5
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 6,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "start": 1,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u5316\u5986\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "start": 1,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u5316\u5986\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u9876\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "start": 1,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u6d17\u624b\u95f4\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "start": 1,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u6d17\u624b\u95f4\u7684\u9876\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "start": 1,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5395\u6240\u7684\u9876\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5395\u6240\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u4e66\u623f\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u4e66\u623f\u7684\u53f0\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u53f0\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u4e66\u623f\u7684\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u4e66\u623f\u7684\u843d\u5730\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u843d\u5730\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u4e66\u623f\u7684\u9605\u8bfb\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u9605\u8bfb\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u53a8\u623f\u7684\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u53a8\u623f\u7684\u4e3b\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u4e3b\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u7384\u5173\u7684\u706f\u5e26\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u706f\u5e26",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u7384\u5173\u7684\u5c04\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u5c04\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u95e8\u5385\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u95e8\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u6253\u5f00\u5367\u5ba4\u7684\u706f",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u6253\u5f00\u5367\u5ba4\u7684\u540a\u706f",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u540a\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u6253\u5f00\u7384\u5173\u7684\u9876\u706f",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u6253\u5f00\u95e8\u5385\u7684\u5c04\u706f",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u95e8\u5385",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u5c04\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u6253\u5f00\u5ba2\u5385\u7684\u9876\u706f",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u6253\u5f00\u5ba2\u5385\u4e1c\u5899\u7684\u58c1\u706f",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u4e1c\u5899",
+            "start": 4,
+            "entity": "wall",
+            "end": 6
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 7,
+            "entity": "lamp",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "text": "\u6253\u5f00\u5ba2\u5385\u897f\u5899\u7684\u5c04\u706f",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u897f\u5899",
+            "start": 4,
+            "entity": "wall",
+            "end": 6
+          },
+          {
+            "value": "\u5c04\u706f",
+            "start": 7,
+            "entity": "lamp",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "text": "\u6253\u5f00\u536b\u751f\u95f4\u7684\u5316\u5986\u706f",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "start": 2,
+            "entity": "room",
+            "end": 5
+          },
+          {
+            "value": "\u5316\u5986\u706f",
+            "start": 6,
+            "entity": "lamp",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "text": "\u6253\u5f00\u6d17\u624b\u95f4\u7684\u5c04\u706f",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "start": 2,
+            "entity": "room",
+            "end": 5
+          },
+          {
+            "value": "\u5c04\u706f",
+            "start": 6,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u6253\u5f00\u4e66\u623f\u7684\u9876\u706f",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u6253\u5f00\u4e66\u623f\u7684\u53f0\u706f",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u53f0\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u6253\u5f00\u4e66\u623f\u7684\u843d\u5730\u706f",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u843d\u5730\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u6253\u5f00\u4e66\u623f\u7684\u9605\u8bfb\u706f",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9605\u8bfb\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u6253\u5f00\u53a8\u623f\u7684\u9876\u706f",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u6253\u5f00\u53a8\u623f\u7684\u5c04\u706f",
+        "intent": "light-on",
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u5c04\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u4e86\u706f",
+        "intent": "light-off",
+        "entities": []
+      },
+      {
+        "text": "\u628a\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": []
+      },
+      {
+        "text": "\u628a\u9633\u53f0\u7684\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u9633\u53f0",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u9876\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u540a\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u540a\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u53f0\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u53f0\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u53f0\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u53f0\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u540a\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u540a\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u5c04\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u5c04\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u4e1c\u5899\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u4e1c\u5899",
+            "start": 3,
+            "entity": "wall",
+            "end": 5
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 6,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "start": 1,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u5316\u5986\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "start": 1,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u5316\u5986\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u9876\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "start": 1,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u6d17\u624b\u95f4\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "start": 1,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u6d17\u624b\u95f4\u7684\u9876\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "start": 1,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5395\u6240\u7684\u9876\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5395\u6240\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u4e66\u623f\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u4e66\u623f\u7684\u53f0\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u53f0\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u4e66\u623f\u7684\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u4e66\u623f\u7684\u843d\u5730\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u843d\u5730\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u4e66\u623f\u7684\u9605\u8bfb\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u9605\u8bfb\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u53a8\u623f\u7684\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u53a8\u623f\u7684\u4e3b\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u4e3b\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u7384\u5173\u7684\u706f\u5e26\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u706f\u5e26",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u7384\u5173\u7684\u5c04\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u5c04\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u95e8\u5385\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u95e8\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u4e86\u5367\u5ba4\u7684\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u4e86\u5367\u5ba4\u7684\u540a\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u540a\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u4e86\u7384\u5173\u7684\u9876\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u4e86\u5ba2\u5385\u7684\u9876\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u4e86\u5ba2\u5385\u4e1c\u5899\u7684\u58c1\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u4e1c\u5899",
+            "start": 4,
+            "entity": "wall",
+            "end": 6
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 7,
+            "entity": "lamp",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u4e86\u5ba2\u5385\u897f\u5899\u7684\u5c04\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u897f\u5899",
+            "start": 4,
+            "entity": "wall",
+            "end": 6
+          },
+          {
+            "value": "\u5c04\u706f",
+            "start": 7,
+            "entity": "lamp",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u4e86\u536b\u751f\u95f4\u7684\u5316\u5986\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "start": 2,
+            "entity": "room",
+            "end": 5
+          },
+          {
+            "value": "\u5316\u5986\u706f",
+            "start": 6,
+            "entity": "lamp",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u4e86\u6d17\u624b\u95f4\u7684\u5c04\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "start": 2,
+            "entity": "room",
+            "end": 5
+          },
+          {
+            "value": "\u5c04\u706f",
+            "start": 6,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u4e86\u4e66\u623f\u7684\u9876\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u4e86\u4e66\u623f\u7684\u53f0\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u53f0\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u4e86\u4e66\u623f\u7684\u843d\u5730\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u843d\u5730\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u4e86\u4e66\u623f\u7684\u9605\u8bfb\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9605\u8bfb\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u4e86\u53a8\u623f\u7684\u9876\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u4e86\u53a8\u623f\u7684\u5c04\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u5c04\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u706f",
+        "intent": "light-off",
+        "entities": []
+      },
+      {
+        "text": "\u628a\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": []
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u706f",
+        "intent": "light-off",
+        "entities": []
+      },
+      {
+        "text": "\u5173\u6389\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u706f",
+            "start": 2,
+            "entity": "lamp",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u706f",
+            "start": 1,
+            "entity": "lamp",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u9876\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u540a\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u540a\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u53f0\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u53f0\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u53f0\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u53f0\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u4e3b\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u4e3b\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u5927\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u5927\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u540a\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u540a\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u5c04\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u5c04\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u4e1c\u5899\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u4e1c\u5899",
+            "start": 3,
+            "entity": "wall",
+            "end": 5
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 6,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u897f\u5899\u7684\u706f\u5e26\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u897f\u5899",
+            "start": 3,
+            "entity": "wall",
+            "end": 5
+          },
+          {
+            "value": "\u706f\u5e26",
+            "start": 6,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "start": 1,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u5316\u5986\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "start": 1,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u5316\u5986\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u9876\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "start": 1,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u6d17\u624b\u95f4\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "start": 1,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u6d17\u624b\u95f4\u7684\u9876\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "start": 1,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5395\u6240\u7684\u9876\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5395\u6240\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u4e66\u623f\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u4e66\u623f\u7684\u53f0\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u53f0\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u4e66\u623f\u7684\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u4e66\u623f\u7684\u843d\u5730\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u843d\u5730\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u4e66\u623f\u7684\u9605\u8bfb\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u9605\u8bfb\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u53a8\u623f\u7684\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u53a8\u623f\u7684\u4e3b\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u4e3b\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u7384\u5173\u7684\u706f\u5e26\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u706f\u5e26",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u7384\u5173\u7684\u5c04\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u5c04\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u95e8\u5385\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u95e8\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u6389\u5367\u5ba4\u7684\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u6389\u5367\u5ba4\u7684\u540a\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u540a\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u6389\u7384\u5173\u7684\u9876\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u6389\u95e8\u5385\u7684\u5c04\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u95e8\u5385",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u5c04\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u6389\u5ba2\u5385\u7684\u9876\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u6389\u5ba2\u5385\u4e1c\u5899\u7684\u58c1\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u4e1c\u5899",
+            "start": 4,
+            "entity": "wall",
+            "end": 6
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 7,
+            "entity": "lamp",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u6389\u5ba2\u5385\u897f\u5899\u7684\u5c04\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u897f\u5899",
+            "start": 4,
+            "entity": "wall",
+            "end": 6
+          },
+          {
+            "value": "\u5c04\u706f",
+            "start": 7,
+            "entity": "lamp",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u6389\u536b\u751f\u95f4\u7684\u5316\u5986\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "start": 2,
+            "entity": "room",
+            "end": 5
+          },
+          {
+            "value": "\u5316\u5986\u706f",
+            "start": 6,
+            "entity": "lamp",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u6389\u6d17\u624b\u95f4\u7684\u5c04\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "start": 2,
+            "entity": "room",
+            "end": 5
+          },
+          {
+            "value": "\u5c04\u706f",
+            "start": 6,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u6389\u4e66\u623f\u7684\u9876\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u6389\u4e66\u623f\u7684\u53f0\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u53f0\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u6389\u4e66\u623f\u7684\u843d\u5730\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u843d\u5730\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u6389\u4e66\u623f\u7684\u9605\u8bfb\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9605\u8bfb\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u6389\u53a8\u623f\u7684\u9876\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u6389\u53a8\u623f\u7684\u5c04\u706f",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "start": 2,
+            "entity": "room",
+            "end": 4
+          },
+          {
+            "value": "\u5c04\u706f",
+            "start": 5,
+            "entity": "lamp",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "\u5173\u706f",
+        "intent": "light-off",
+        "entities": []
+      },
+      {
+        "text": "\u628a\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u706f",
+            "start": 1,
+            "entity": "lamp",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u706f\u5e26\u8c03\u6210\u767d\u8272",
+        "intent": "light-color",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u706f\u5e26",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          },
+          {
+            "value": "\u767d\u8272",
+            "start": 8,
+            "entity": "color",
+            "end": 10
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u58c1\u706f\u8c03\u6210\u7d2b\u8272",
+        "intent": "light-color",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          },
+          {
+            "value": "\u7d2b\u8272",
+            "start": 8,
+            "entity": "color",
+            "end": 10
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u58c1\u706f\u8c03\u6210\u84dd\u8272",
+        "intent": "light-color",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          },
+          {
+            "value": "\u84dd\u8272",
+            "start": 8,
+            "entity": "color",
+            "end": 10
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u58c1\u706f\u8c03\u6210\u7eff\u8272",
+        "intent": "light-color",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          },
+          {
+            "value": "\u7eff\u8272",
+            "start": 8,
+            "entity": "color",
+            "end": 10
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u58c1\u706f\u8c03\u6210\u6a59\u8272",
+        "intent": "light-color",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          },
+          {
+            "value": "\u6a59\u8272",
+            "start": 8,
+            "entity": "color",
+            "end": 10
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5ba2\u5385\u7684\u706f\u5e26\u8c03\u6210\u7ea2\u8272",
+        "intent": "light-color",
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u706f\u5e26",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          },
+          {
+            "value": "\u7ea2\u8272",
+            "start": 8,
+            "entity": "color",
+            "end": 10
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u58c1\u706f\u8c03\u6210\u9ec4\u8272",
+        "intent": "light-color",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          },
+          {
+            "value": "\u9ec4\u8272",
+            "start": 8,
+            "entity": "color",
+            "end": 10
+          }
+        ]
+      },
+      {
+        "text": "\u706f\u5149\u592a\u4eae\u4e86",
+        "intent": "light-dimming",
+        "entities": []
+      },
+      {
+        "text": "\u628a\u706f\u8c03\u6697",
+        "intent": "light-dimming",
+        "entities": []
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u58c1\u706f\u8c03\u6697\u4e00\u70b9",
+        "intent": "light-dimming",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 4,
+            "entity": "lamp",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "\u5367\u5ba4\u7684\u58c1\u706f\u592a\u4eae\u4e86",
+        "intent": "light-dimming",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 0,
+            "entity": "room",
+            "end": 2
+          },
+          {
+            "value": "\u58c1\u706f",
+            "start": 3,
+            "entity": "lamp",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "text": "\u5367\u5ba4\u7684\u706f\u592a\u4eae\u4e86",
+        "intent": "light-dimming",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 0,
+            "entity": "room",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "text": "\u5149\u7ebf\u592a\u6697\u4e86",
+        "intent": "light-brightening",
+        "entities": []
+      },
+      {
+        "text": "\u706f\u5149\u592a\u6697\u4e86",
+        "intent": "light-brightening",
+        "entities": []
+      },
+      {
+        "text": "\u628a\u706f\u8c03\u4eae",
+        "intent": "light-brightening",
+        "entities": []
+      },
+      {
+        "text": "\u5367\u5ba4\u7684\u706f\u592a\u6697\u4e86",
+        "intent": "light-brightening",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 0,
+            "entity": "room",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u706f\u8c03\u4eae\u4e00\u70b9",
+        "intent": "light-brightening",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "text": "\u628a\u5367\u5ba4\u7684\u9876\u706f\u8c03\u4eae\u4e00\u70b9",
+        "intent": "light-brightening",
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "start": 1,
+            "entity": "room",
+            "end": 3
+          },
+          {
+            "value": "\u9876\u706f",
+            "start": 4,
+            "entity": "room",
+            "end": 6
+          }
+        ]
+      }
+    ]
+  }
+}

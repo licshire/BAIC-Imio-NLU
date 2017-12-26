@@ -97,8 +97,8 @@ class MitieEntityExtractor(EntityExtractor):
                     #print('[====== DEBUG STARTS HERE ====== ]:')
                     #print('[DEBUG] entities:')
                     #print(ent)
-                    #for token in tokens:
-                    #    print('[DEBUG][IN find_entity] token: (text=%s)(offset=%s)(end=%s)' % (token.text, token.offset, token.end))
+                    for token in tokens:
+                        print('[DEBUG][Wrong Entity Found] token: (text=%s)(offset=%s)(end=%s)' % (token.text, token.offset, token.end))
                     logger.warning("Example skipped: {}".format(str(e)))
                     continue
                 try:

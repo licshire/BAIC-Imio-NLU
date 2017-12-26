@@ -155,6 +155,7 @@ class RasaNLU(object):
                 request.setResponseCode(200)
                 response = yield (self.data_router.parse(data) if self._testing
                                   else threads.deferToThread(self.data_router.parse, data))
+                print('[DEBUG][WEB PORTAL:] %s' % response)
                 returnValue(simplejson.dumps(response))
             except InvalidProjectError as e:
                 request.setResponseCode(404)

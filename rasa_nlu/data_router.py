@@ -145,7 +145,10 @@ class DataRouter(object):
             raise ValueError("unknown mode : {0}".format(mode))
 
     def extract(self, data):
-        return self.emulator.normalise_request_json(data)
+        extracts = self.emulator.normalise_request_json(data)
+        print('[DEBUG:] Type of extracts = %s' % type(extracts))
+        print('[DEBUG:] Content of extracts = %s' % extracts)
+        return extracts
 
     def parse(self, data):
         project = data.get("project") or RasaNLUConfig.DEFAULT_PROJECT_NAME
@@ -157,6 +160,7 @@ class DataRouter(object):
                 raise InvalidProjectError("No project found with name '{}'.".format(project))
             else:
                 try:
+                    print('[DEBUG:] config = %s' % self.config)
                     self.project_store[project] = Project(self.config, self.component_builder, project)
                 except Exception as e:
                     raise InvalidProjectError("Unable to load project '{}'. Error: {}".format(project, e))

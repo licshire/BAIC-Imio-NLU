@@ -71,6 +71,7 @@ class Project(object):
         try:
             if not self._models.get(model_name):
                 self._models[model_name] = self._interpreter_for_model(model_name)
+                print('[DEBUG] Type of chosen model: %s' % type(self._models[model_name]))
         finally:
             self._loader_lock.release()
 
@@ -112,6 +113,7 @@ class Project(object):
     def _search_for_models(self):
         model_names = (self._list_models_in_dir(self._path) +
                        self._list_models_in_cloud(self._config))
+        print('[DEBUG] Searched model names: %s' % model_names)
         if not model_names:
             if FALLBACK_MODEL_NAME not in self._models:
                 self._models[FALLBACK_MODEL_NAME] = self._fallback_model()
@@ -119,6 +121,7 @@ class Project(object):
             for model in set(model_names):
                 if model not in self._models:
                     self._models[model] = None
+        print('[DEBUG] Loaded models: %s' % self._models)
 
     def _interpreter_for_model(self, model_name):
         metadata = self._read_model_metadata(model_name)

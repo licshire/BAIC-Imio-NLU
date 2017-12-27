@@ -294,6 +294,9 @@ class Interpreter(object):
             return output
 
         message = Message(text, self.default_output_attributes(), time=time)
+        print('[DEBUG] Message Output Attributes: %s' % self.default_output_attributes())
+        print('[DEBUG] Message Text: %s' % message.text)
+        print('[DEBUG] Message Data: %s' % message.data)
 
         for component in self.pipeline:
             component.process(message, **self.context)

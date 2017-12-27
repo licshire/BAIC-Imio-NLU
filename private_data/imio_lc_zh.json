@@ -24,13 +24,7 @@
             "start": 1,
             "end": 3,
             "value": "阳台",
-            "entity": "room"
-          },
-          {
-            "start": 4,
-            "end": 5,
-            "value": "灯",
-            "entity": "lamp"
+            "entity": "veranda"
           }
         ]
       },
@@ -42,13 +36,7 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
-          },
-          {
-            "start": 4,
-            "end": 5,
-            "value": "灯",
-            "entity": "lamp"
+            "entity": "bedroom"
           }
         ]
       },
@@ -60,13 +48,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "大灯",
-            "entity": "lamp"
+            "entity": "main-light"
           }
         ]
       },
@@ -78,13 +66,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -96,13 +84,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -114,13 +102,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "吊灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -132,13 +120,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "台灯",
-            "entity": "lamp"
+            "entity": "desk-lamp"
           }
         ]
       },
@@ -150,13 +138,13 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "台灯",
-            "entity": "lamp"
+            "entity": "desk-lamp"
           }
         ]
       },
@@ -168,13 +156,13 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "主灯",
-            "entity": "lamp"
+            "entity": "main-light"
           }
         ]
       },
@@ -186,13 +174,13 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -204,13 +192,13 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "吊灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -222,13 +210,13 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "射灯",
-            "entity": "lamp"
+            "entity": "spotlight"
           }
         ]
       },
@@ -240,19 +228,55 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 3,
             "end": 5,
             "value": "东墙",
-            "entity": "wall"
+            "entity": "east-wall"
           },
           {
             "start": 6,
             "end": 8,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
+          }
+        ]
+      },
+      {
+        "text": "打开客厅南墙的灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "南墙",
+            "entity": "south-wall"
+          }
+        ]
+      },
+      {
+        "text": "把客厅南墙的灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "南墙",
+            "entity": "south-wall"
           }
         ]
       },
@@ -264,19 +288,121 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 3,
             "end": 5,
             "value": "南墙",
-            "entity": "wall"
+            "entity": "south-wall"
           },
           {
             "start": 6,
             "end": 8,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
+          }
+        ]
+      },
+      {
+        "text": "打开卧室南墙的灯",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "卧室",
+            "entity": "bedroom"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "南墙",
+            "entity": "south-wall"
+          }
+        ]
+      },
+      {
+        "text": "把卧室南墙的灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "bedroom"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "南墙",
+            "entity": "south-wall"
+          }
+        ]
+      },
+      {
+        "text": "把卧室南墙的灯带打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "bedroom"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "南墙",
+            "entity": "south-wall"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "灯带",
+            "entity": "strip-lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅西墙的灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "西墙",
+            "entity": "west-wall"
+          }
+        ]
+      },
+      {
+        "text": "把卧室西墙的灯带打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "bedroom"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "西墙",
+            "entity": "west-wall"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "灯带",
+            "entity": "strip-lamp"
           }
         ]
       },
@@ -288,19 +414,73 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 3,
             "end": 5,
             "value": "西墙",
-            "entity": "wall"
+            "entity": "west-wall"
           },
           {
             "start": 6,
             "end": 8,
             "value": "灯带",
-            "entity": "lamp"
+            "entity": "strip-lamp"
+          }
+        ]
+      },
+      {
+        "text": "把书房北墙的灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "library"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "北墙",
+            "entity": "north-wall"
+          }
+        ]
+      },
+      {
+        "text": "把卧室北墙的灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "bedroom"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "北墙",
+            "entity": "north-wall"
+          }
+        ]
+      },
+      {
+        "text": "把客厅北墙的灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "北墙",
+            "entity": "north-wall"
           }
         ]
       },
@@ -312,19 +492,43 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 3,
             "end": 5,
             "value": "北墙",
-            "entity": "wall"
+            "entity": "north-wall"
           },
           {
             "start": 6,
             "end": 8,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅北墙的射灯打开",
+        "intent": "light-on",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "北墙",
+            "entity": "north-wall"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "射灯",
+            "entity": "spotlight"
           }
         ]
       },
@@ -336,13 +540,13 @@
             "start": 1,
             "end": 4,
             "value": "卫生间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 5,
             "end": 7,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -354,13 +558,13 @@
             "start": 1,
             "end": 4,
             "value": "卫生间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 5,
             "end": 8,
             "value": "化妆灯",
-            "entity": "lamp"
+            "entity": "dressing-lamp"
           }
         ]
       },
@@ -372,13 +576,13 @@
             "start": 1,
             "end": 4,
             "value": "卫生间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -390,13 +594,13 @@
             "start": 1,
             "end": 4,
             "value": "洗手间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 5,
             "end": 7,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -408,13 +612,13 @@
             "start": 1,
             "end": 4,
             "value": "洗手间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -426,13 +630,13 @@
             "start": 1,
             "end": 3,
             "value": "厕所",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -444,13 +648,13 @@
             "start": 1,
             "end": 3,
             "value": "厕所",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -462,13 +666,13 @@
             "start": 1,
             "end": 3,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -480,13 +684,13 @@
             "start": 1,
             "end": 3,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 4,
             "end": 6,
             "value": "台灯",
-            "entity": "lamp"
+            "entity": "desk-lamp"
           }
         ]
       },
@@ -498,13 +702,7 @@
             "start": 1,
             "end": 3,
             "value": "书房",
-            "entity": "room"
-          },
-          {
-            "start": 4,
-            "end": 5,
-            "value": "灯",
-            "entity": "lamp"
+            "entity": "library"
           }
         ]
       },
@@ -516,13 +714,13 @@
             "start": 1,
             "end": 3,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 4,
             "end": 7,
             "value": "落地灯",
-            "entity": "lamp"
+            "entity": "floor-lamp"
           }
         ]
       },
@@ -534,13 +732,13 @@
             "start": 1,
             "end": 3,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 4,
             "end": 7,
             "value": "阅读灯",
-            "entity": "lamp"
+            "entity": "reading-lamp"
           }
         ]
       },
@@ -552,13 +750,7 @@
             "start": 1,
             "end": 3,
             "value": "厨房",
-            "entity": "room"
-          },
-          {
-            "start": 4,
-            "end": 5,
-            "value": "灯",
-            "entity": "lamp"
+            "entity": "kitchen"
           }
         ]
       },
@@ -570,13 +762,13 @@
             "start": 1,
             "end": 3,
             "value": "厨房",
-            "entity": "room"
+            "entity": "kitchen"
           },
           {
             "start": 4,
             "end": 6,
             "value": "主灯",
-            "entity": "lamp"
+            "entity": "main-light"
           }
         ]
       },
@@ -588,13 +780,13 @@
             "start": 1,
             "end": 3,
             "value": "玄关",
-            "entity": "room"
+            "entity": "doorway"
           },
           {
             "start": 4,
             "end": 6,
             "value": "灯带",
-            "entity": "lamp"
+            "entity": "strip-lamp"
           }
         ]
       },
@@ -606,13 +798,13 @@
             "start": 1,
             "end": 3,
             "value": "玄关",
-            "entity": "room"
+            "entity": "doorway"
           },
           {
             "start": 4,
             "end": 6,
             "value": "射灯",
-            "entity": "lamp"
+            "entity": "spotlight"
           }
         ]
       },
@@ -624,13 +816,13 @@
             "start": 1,
             "end": 3,
             "value": "门厅",
-            "entity": "room"
+            "entity": "doorway"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -642,13 +834,7 @@
             "start": 2,
             "end": 4,
             "value": "卧室",
-            "entity": "room"
-          },
-          {
-            "start": 5,
-            "end": 6,
-            "value": "灯",
-            "entity": "lamp"
+            "entity": "bedroom"
           }
         ]
       },
@@ -660,13 +846,13 @@
             "start": 2,
             "end": 4,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 5,
             "end": 7,
             "value": "吊灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -678,13 +864,13 @@
             "start": 2,
             "end": 4,
             "value": "玄关",
-            "entity": "room"
+            "entity": "doorway"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -696,13 +882,13 @@
             "start": 2,
             "end": 4,
             "value": "门厅",
-            "entity": "room"
+            "entity": "doorway"
           },
           {
             "start": 5,
             "end": 7,
             "value": "射灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -714,13 +900,13 @@
             "start": 2,
             "end": 4,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -732,19 +918,19 @@
             "start": 2,
             "end": 4,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "东墙",
-            "entity": "wall"
+            "entity": "east-wall"
           },
           {
             "start": 7,
             "end": 9,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -756,19 +942,19 @@
             "start": 2,
             "end": 4,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "西墙",
-            "entity": "wall"
+            "entity": "west-wall"
           },
           {
             "start": 7,
             "end": 9,
             "value": "射灯",
-            "entity": "lamp"
+            "entity": "spotlight"
           }
         ]
       },
@@ -780,13 +966,13 @@
             "start": 2,
             "end": 5,
             "value": "卫生间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 6,
             "end": 9,
             "value": "化妆灯",
-            "entity": "lamp"
+            "entity": "dressing-lamp"
           }
         ]
       },
@@ -798,13 +984,13 @@
             "start": 2,
             "end": 5,
             "value": "洗手间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 6,
             "end": 8,
             "value": "射灯",
-            "entity": "lamp"
+            "entity": "spotlight"
           }
         ]
       },
@@ -816,13 +1002,13 @@
             "start": 2,
             "end": 4,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -834,13 +1020,13 @@
             "start": 2,
             "end": 4,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 5,
             "end": 7,
             "value": "台灯",
-            "entity": "lamp"
+            "entity": "desk-lamp"
           }
         ]
       },
@@ -852,13 +1038,13 @@
             "start": 2,
             "end": 4,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 5,
             "end": 8,
             "value": "落地灯",
-            "entity": "lamp"
+            "entity": "floor-lamp"
           }
         ]
       },
@@ -870,13 +1056,13 @@
             "start": 2,
             "end": 4,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 5,
             "end": 8,
             "value": "阅读灯",
-            "entity": "lamp"
+            "entity": "reading-lamp"
           }
         ]
       },
@@ -888,13 +1074,13 @@
             "start": 2,
             "end": 4,
             "value": "厨房",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -906,13 +1092,13 @@
             "start": 2,
             "end": 4,
             "value": "厨房",
-            "entity": "room"
+            "entity": "kitchen"
           },
           {
             "start": 5,
             "end": 7,
             "value": "射灯",
-            "entity": "lamp"
+            "entity": "spotlight"
           }
         ]
       },
@@ -934,7 +1120,7 @@
             "start": 1,
             "end": 3,
             "value": "阳台",
-            "entity": "room"
+            "entity": "veranda"
           }
         ]
       },
@@ -946,7 +1132,7 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           }
         ]
       },
@@ -958,13 +1144,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -976,13 +1162,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -994,13 +1180,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "吊灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -1012,13 +1198,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "台灯",
-            "entity": "lamp"
+            "entity": "desk-lamp"
           }
         ]
       },
@@ -1030,13 +1216,13 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "台灯",
-            "entity": "lamp"
+            "entity": "desk-lamp"
           }
         ]
       },
@@ -1048,13 +1234,13 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -1066,13 +1252,13 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "吊灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -1084,13 +1270,13 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "射灯",
-            "entity": "lamp"
+            "entity": "spotlight"
           }
         ]
       },
@@ -1102,19 +1288,19 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 3,
             "end": 5,
             "value": "东墙",
-            "entity": "wall"
+            "entity": "east-wall"
           },
           {
             "start": 6,
             "end": 8,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -1126,13 +1312,13 @@
             "start": 1,
             "end": 4,
             "value": "卫生间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 5,
             "end": 7,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -1144,13 +1330,13 @@
             "start": 1,
             "end": 4,
             "value": "卫生间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 5,
             "end": 8,
             "value": "化妆灯",
-            "entity": "lamp"
+            "entity": "dressing-lamp"
           }
         ]
       },
@@ -1162,13 +1348,13 @@
             "start": 1,
             "end": 4,
             "value": "卫生间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -1180,13 +1366,13 @@
             "start": 1,
             "end": 4,
             "value": "洗手间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 5,
             "end": 7,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -1198,13 +1384,13 @@
             "start": 1,
             "end": 4,
             "value": "洗手间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -1216,13 +1402,13 @@
             "start": 1,
             "end": 3,
             "value": "厕所",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -1234,13 +1420,13 @@
             "start": 1,
             "end": 3,
             "value": "厕所",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -1252,13 +1438,13 @@
             "start": 1,
             "end": 3,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -1270,13 +1456,13 @@
             "start": 1,
             "end": 3,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 4,
             "end": 6,
             "value": "台灯",
-            "entity": "lamp"
+            "entity": "desk-lamp"
           }
         ]
       },
@@ -1288,7 +1474,7 @@
             "start": 1,
             "end": 3,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           }
         ]
       },
@@ -1300,13 +1486,13 @@
             "start": 1,
             "end": 3,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 4,
             "end": 7,
             "value": "落地灯",
-            "entity": "lamp"
+            "entity": "floor-lamp"
           }
         ]
       },
@@ -1318,13 +1504,13 @@
             "start": 1,
             "end": 3,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 4,
             "end": 7,
             "value": "阅读灯",
-            "entity": "lamp"
+            "entity": "reading-lamp"
           }
         ]
       },
@@ -1336,7 +1522,7 @@
             "start": 1,
             "end": 3,
             "value": "厨房",
-            "entity": "room"
+            "entity": "kitchen"
           }
         ]
       },
@@ -1348,13 +1534,13 @@
             "start": 1,
             "end": 3,
             "value": "厨房",
-            "entity": "room"
+            "entity": "kitchen"
           },
           {
             "start": 4,
             "end": 6,
             "value": "主灯",
-            "entity": "lamp"
+            "entity": "main-light"
           }
         ]
       },
@@ -1366,13 +1552,13 @@
             "start": 1,
             "end": 3,
             "value": "玄关",
-            "entity": "room"
+            "entity": "doorway"
           },
           {
             "start": 4,
             "end": 6,
             "value": "灯带",
-            "entity": "lamp"
+            "entity": "strip-lamp"
           }
         ]
       },
@@ -1384,13 +1570,13 @@
             "start": 1,
             "end": 3,
             "value": "玄关",
-            "entity": "room"
+            "entity": "doorway"
           },
           {
             "start": 4,
             "end": 6,
             "value": "射灯",
-            "entity": "lamp"
+            "entity": "spotlight"
           }
         ]
       },
@@ -1402,13 +1588,13 @@
             "start": 1,
             "end": 3,
             "value": "门厅",
-            "entity": "room"
+            "entity": "doorway"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -1420,13 +1606,7 @@
             "start": 2,
             "end": 4,
             "value": "卧室",
-            "entity": "room"
-          },
-          {
-            "start": 5,
-            "end": 6,
-            "value": "灯",
-            "entity": "lamp"
+            "entity": "bedroom"
           }
         ]
       },
@@ -1438,13 +1618,13 @@
             "start": 2,
             "end": 4,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 5,
             "end": 7,
             "value": "吊灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -1456,13 +1636,13 @@
             "start": 2,
             "end": 4,
             "value": "玄关",
-            "entity": "room"
+            "entity": "doorway"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -1474,13 +1654,31 @@
             "start": 2,
             "end": 4,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
+          }
+        ]
+      },
+      {
+        "text": "关掉客厅东墙的灯",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "东墙",
+            "entity": "east-wall"
           }
         ]
       },
@@ -1492,19 +1690,19 @@
             "start": 2,
             "end": 4,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "东墙",
-            "entity": "wall"
+            "entity": "east-wall"
           },
           {
             "start": 7,
             "end": 9,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -1516,19 +1714,19 @@
             "start": 2,
             "end": 4,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "西墙",
-            "entity": "wall"
+            "entity": "west-wall"
           },
           {
             "start": 7,
             "end": 9,
             "value": "射灯",
-            "entity": "lamp"
+            "entity": "spotlight"
           }
         ]
       },
@@ -1540,13 +1738,13 @@
             "start": 2,
             "end": 5,
             "value": "卫生间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 6,
             "end": 9,
             "value": "化妆灯",
-            "entity": "lamp"
+            "entity": "dressing-lamp"
           }
         ]
       },
@@ -1558,13 +1756,13 @@
             "start": 2,
             "end": 5,
             "value": "洗手间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 6,
             "end": 8,
             "value": "射灯",
-            "entity": "lamp"
+            "entity": "spotlight"
           }
         ]
       },
@@ -1576,13 +1774,13 @@
             "start": 2,
             "end": 4,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -1594,13 +1792,13 @@
             "start": 2,
             "end": 4,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 5,
             "end": 7,
             "value": "台灯",
-            "entity": "lamp"
+            "entity": "desk-lamp"
           }
         ]
       },
@@ -1612,13 +1810,13 @@
             "start": 2,
             "end": 4,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 5,
             "end": 8,
             "value": "落地灯",
-            "entity": "lamp"
+            "entity": "floor-lamp"
           }
         ]
       },
@@ -1630,13 +1828,13 @@
             "start": 2,
             "end": 4,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 5,
             "end": 8,
             "value": "阅读灯",
-            "entity": "lamp"
+            "entity": "reading-lamp"
           }
         ]
       },
@@ -1648,13 +1846,13 @@
             "start": 2,
             "end": 4,
             "value": "厨房",
-            "entity": "room"
+            "entity": "kitchen"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -1666,13 +1864,13 @@
             "start": 2,
             "end": 4,
             "value": "厨房",
-            "entity": "room"
+            "entity": "kitchen"
           },
           {
             "start": 5,
             "end": 7,
             "value": "射灯",
-            "entity": "lamp"
+            "entity": "spotlight"
           }
         ]
       },
@@ -1694,13 +1892,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -1712,26 +1910,12 @@
       {
         "text": "关掉灯",
         "intent": "light-off",
-        "entities": [
-          {
-            "start": 2,
-            "end": 3,
-            "value": "灯",
-            "entity": "lamp"
-          }
-        ]
+        "entities": []
       },
       {
         "text": "把灯关掉",
         "intent": "light-off",
-        "entities": [
-          {
-            "start": 1,
-            "end": 2,
-            "value": "灯",
-            "entity": "lamp"
-          }
-        ]
+        "entities": []
       },
       {
         "text": "把卧室的灯关掉",
@@ -1741,13 +1925,7 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
-          },
-          {
-            "start": 4,
-            "end": 5,
-            "value": "灯",
-            "entity": "lamp"
+            "entity": "bedroom"
           }
         ]
       },
@@ -1759,13 +1937,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -1777,13 +1955,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -1795,13 +1973,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "吊灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -1813,13 +1991,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "台灯",
-            "entity": "lamp"
+            "entity": "desk-lamp"
           }
         ]
       },
@@ -1831,13 +2009,13 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "台灯",
-            "entity": "lamp"
+            "entity": "desk-lamp"
           }
         ]
       },
@@ -1849,13 +2027,13 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -1867,13 +2045,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "主灯",
-            "entity": "lamp"
+            "entity": "main-light"
           }
         ]
       },
@@ -1885,13 +2063,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "大灯",
-            "entity": "lamp"
+            "entity": "main-light"
           }
         ]
       },
@@ -1903,13 +2081,13 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "吊灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -1921,13 +2099,13 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "射灯",
-            "entity": "lamp"
+            "entity": "spotlight"
           }
         ]
       },
@@ -1939,19 +2117,19 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 3,
             "end": 5,
             "value": "东墙",
-            "entity": "wall"
+            "entity": "east-wall"
           },
           {
             "start": 6,
             "end": 8,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -1963,19 +2141,79 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 3,
             "end": 5,
             "value": "西墙",
-            "entity": "wall"
+            "entity": "west-wall"
           },
           {
             "start": 6,
             "end": 8,
             "value": "灯带",
-            "entity": "lamp"
+            "entity": "strip-lamp"
+          }
+        ]
+      },
+      {
+        "text": "把客厅南墙的灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "南墙",
+            "entity": "south-wall"
+          }
+        ]
+      },
+      {
+        "text": "把客厅北墙的灯关了",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "北墙",
+            "entity": "north-wall"
+          }
+        ]
+      },
+      {
+        "text": "把客厅北墙的灯带关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "北墙",
+            "entity": "north-wall"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "灯带",
+            "entity": "strip-lamp"
           }
         ]
       },
@@ -1987,13 +2225,13 @@
             "start": 1,
             "end": 4,
             "value": "卫生间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 5,
             "end": 7,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -2005,13 +2243,13 @@
             "start": 1,
             "end": 4,
             "value": "卫生间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 5,
             "end": 8,
             "value": "化妆灯",
-            "entity": "lamp"
+            "entity": "dressing-lamp"
           }
         ]
       },
@@ -2023,13 +2261,13 @@
             "start": 1,
             "end": 4,
             "value": "卫生间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -2041,13 +2279,13 @@
             "start": 1,
             "end": 4,
             "value": "洗手间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 5,
             "end": 7,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -2059,13 +2297,13 @@
             "start": 1,
             "end": 4,
             "value": "洗手间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -2077,13 +2315,13 @@
             "start": 1,
             "end": 3,
             "value": "厕所",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -2095,13 +2333,13 @@
             "start": 1,
             "end": 3,
             "value": "厕所",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -2113,13 +2351,13 @@
             "start": 1,
             "end": 3,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -2131,13 +2369,13 @@
             "start": 1,
             "end": 3,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 4,
             "end": 6,
             "value": "台灯",
-            "entity": "lamp"
+            "entity": "desk-lamp"
           }
         ]
       },
@@ -2149,13 +2387,7 @@
             "start": 1,
             "end": 3,
             "value": "书房",
-            "entity": "room"
-          },
-          {
-            "start": 4,
-            "end": 5,
-            "value": "灯",
-            "entity": "lamp"
+            "entity": "library"
           }
         ]
       },
@@ -2167,13 +2399,13 @@
             "start": 1,
             "end": 3,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 4,
             "end": 7,
             "value": "落地灯",
-            "entity": "lamp"
+            "entity": "floor-lamp"
           }
         ]
       },
@@ -2185,13 +2417,13 @@
             "start": 1,
             "end": 3,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 4,
             "end": 7,
             "value": "阅读灯",
-            "entity": "lamp"
+            "entity": "reading-lamp"
           }
         ]
       },
@@ -2203,13 +2435,43 @@
             "start": 1,
             "end": 3,
             "value": "厨房",
-            "entity": "room"
+            "entity": "kitchen"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的主灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "bedroom"
           },
           {
             "start": 4,
-            "end": 5,
-            "value": "灯",
-            "entity": "lamp"
+            "end": 6,
+            "value": "主灯",
+            "entity": "main-light"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的主灯关掉",
+        "intent": "light-off",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主灯",
+            "entity": "main-light"
           }
         ]
       },
@@ -2221,13 +2483,13 @@
             "start": 1,
             "end": 3,
             "value": "厨房",
-            "entity": "room"
+            "entity": "kitchen"
           },
           {
             "start": 4,
             "end": 6,
             "value": "主灯",
-            "entity": "lamp"
+            "entity": "main-light"
           }
         ]
       },
@@ -2239,13 +2501,13 @@
             "start": 1,
             "end": 3,
             "value": "玄关",
-            "entity": "room"
+            "entity": "doorway"
           },
           {
             "start": 4,
             "end": 6,
             "value": "灯带",
-            "entity": "lamp"
+            "entity": "strip-lamp"
           }
         ]
       },
@@ -2257,13 +2519,13 @@
             "start": 1,
             "end": 3,
             "value": "玄关",
-            "entity": "room"
+            "entity": "doorway"
           },
           {
             "start": 4,
             "end": 6,
             "value": "射灯",
-            "entity": "lamp"
+            "entity": "spotlight"
           }
         ]
       },
@@ -2275,13 +2537,13 @@
             "start": 1,
             "end": 3,
             "value": "门厅",
-            "entity": "room"
+            "entity": "doorway"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -2293,13 +2555,7 @@
             "start": 2,
             "end": 4,
             "value": "卧室",
-            "entity": "room"
-          },
-          {
-            "start": 5,
-            "end": 6,
-            "value": "灯",
-            "entity": "lamp"
+            "entity": "bedroom"
           }
         ]
       },
@@ -2311,13 +2567,13 @@
             "start": 2,
             "end": 4,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 5,
             "end": 7,
             "value": "吊灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -2329,13 +2585,13 @@
             "start": 2,
             "end": 4,
             "value": "玄关",
-            "entity": "room"
+            "entity": "doorway"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -2347,13 +2603,13 @@
             "start": 2,
             "end": 4,
             "value": "门厅",
-            "entity": "room"
+            "entity": "doorway"
           },
           {
             "start": 5,
             "end": 7,
             "value": "射灯",
-            "entity": "lamp"
+            "entity": "spotlight"
           }
         ]
       },
@@ -2365,13 +2621,13 @@
             "start": 2,
             "end": 4,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -2383,19 +2639,19 @@
             "start": 2,
             "end": 4,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "东墙",
-            "entity": "wall"
+            "entity": "east-wall"
           },
           {
             "start": 7,
             "end": 9,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -2407,19 +2663,19 @@
             "start": 2,
             "end": 4,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "西墙",
-            "entity": "wall"
+            "entity": "west-wall"
           },
           {
             "start": 7,
             "end": 9,
             "value": "射灯",
-            "entity": "lamp"
+            "entity": "spotlight"
           }
         ]
       },
@@ -2431,13 +2687,13 @@
             "start": 2,
             "end": 5,
             "value": "卫生间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 6,
             "end": 9,
             "value": "化妆灯",
-            "entity": "lamp"
+            "entity": "dressing-lamp"
           }
         ]
       },
@@ -2449,13 +2705,13 @@
             "start": 2,
             "end": 5,
             "value": "洗手间",
-            "entity": "room"
+            "entity": "washroom"
           },
           {
             "start": 6,
             "end": 8,
             "value": "射灯",
-            "entity": "lamp"
+            "entity": "spotlight"
           }
         ]
       },
@@ -2467,13 +2723,13 @@
             "start": 2,
             "end": 4,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -2485,13 +2741,13 @@
             "start": 2,
             "end": 4,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 5,
             "end": 7,
             "value": "台灯",
-            "entity": "lamp"
+            "entity": "desk-lamp"
           }
         ]
       },
@@ -2503,13 +2759,13 @@
             "start": 2,
             "end": 4,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 5,
             "end": 8,
             "value": "落地灯",
-            "entity": "lamp"
+            "entity": "floor-lamp"
           }
         ]
       },
@@ -2521,13 +2777,13 @@
             "start": 2,
             "end": 4,
             "value": "书房",
-            "entity": "room"
+            "entity": "library"
           },
           {
             "start": 5,
             "end": 8,
             "value": "阅读灯",
-            "entity": "lamp"
+            "entity": "reading-lamp"
           }
         ]
       },
@@ -2539,13 +2795,13 @@
             "start": 2,
             "end": 4,
             "value": "厨房",
-            "entity": "room"
+            "entity": "kitchen"
           },
           {
             "start": 5,
             "end": 7,
             "value": "顶灯",
-            "entity": "lamp"
+            "entity": "ceiling-lamp"
           }
         ]
       },
@@ -2557,13 +2813,13 @@
             "start": 2,
             "end": 4,
             "value": "厨房",
-            "entity": "room"
+            "entity": "kitchen"
           },
           {
             "start": 5,
             "end": 7,
             "value": "射灯",
-            "entity": "lamp"
+            "entity": "spotlight"
           }
         ]
       },
@@ -2575,14 +2831,7 @@
       {
         "text": "把灯关掉",
         "intent": "light-off",
-        "entities": [
-          {
-            "start": 1,
-            "end": 2,
-            "value": "灯",
-            "entity": "lamp"
-          }
-        ]
+        "entities": []
       },
       {
         "text": "把卧室的壁灯关掉",
@@ -2592,13 +2841,157 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的灯调成白色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "bedroom"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "白色",
+            "entity": "white"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的灯调成白色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "白色",
+            "entity": "white"
+          }
+        ]
+      },
+      {
+        "text": "把厕所的灯调成白色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厕所",
+            "entity": "washroom"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "白色",
+            "entity": "white"
+          }
+        ]
+      },
+      {
+        "text": "把书房的灯调成白色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "library"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "白色",
+            "entity": "white"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的灯调成紫色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "bedroom"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "紫色",
+            "entity": "purple"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的灯调成紫色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "紫色",
+            "entity": "purple"
+          }
+        ]
+      },
+      {
+        "text": "把厕所的灯调成紫色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厕所",
+            "entity": "washroom"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "紫色",
+            "entity": "purple"
+          }
+        ]
+      },
+      {
+        "text": "把书房的灯调成紫色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "library"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "紫色",
+            "entity": "purple"
           }
         ]
       },
@@ -2610,19 +3003,19 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "灯带",
-            "entity": "lamp"
+            "entity": "strip-lamp"
           },
           {
             "start": 8,
             "end": 10,
             "value": "白色",
-            "entity": "color"
+            "entity": "white"
           }
         ]
       },
@@ -2634,19 +3027,91 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           },
           {
             "start": 8,
             "end": 10,
             "value": "紫色",
-            "entity": "color"
+            "entity": "purple"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的灯调成蓝色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "bedroom"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "蓝色",
+            "entity": "blue"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的灯调成蓝色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "蓝色",
+            "entity": "blue"
+          }
+        ]
+      },
+      {
+        "text": "把厕所的灯调成蓝色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厕所",
+            "entity": "washroom"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "蓝色",
+            "entity": "blue"
+          }
+        ]
+      },
+      {
+        "text": "把书房的灯调成蓝色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "library"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "蓝色",
+            "entity": "blue"
           }
         ]
       },
@@ -2658,19 +3123,91 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           },
           {
             "start": 8,
             "end": 10,
             "value": "蓝色",
-            "entity": "color"
+            "entity": "blue"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的灯调成绿色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "bedroom"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "绿色",
+            "entity": "green"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的灯调成绿色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "绿色",
+            "entity": "green"
+          }
+        ]
+      },
+      {
+        "text": "把厕所的灯调成绿色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厕所",
+            "entity": "washroom"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "绿色",
+            "entity": "green"
+          }
+        ]
+      },
+      {
+        "text": "把书房的灯调成绿色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "library"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "绿色",
+            "entity": "green"
           }
         ]
       },
@@ -2682,19 +3219,91 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           },
           {
             "start": 8,
             "end": 10,
             "value": "绿色",
-            "entity": "color"
+            "entity": "green"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的灯调成橙色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "bedroom"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "橙色",
+            "entity": "orange"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的灯调成橙色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "橙色",
+            "entity": "orange"
+          }
+        ]
+      },
+      {
+        "text": "把厕所的灯调成橙色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厕所",
+            "entity": "washroom"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "橙色",
+            "entity": "orange"
+          }
+        ]
+      },
+      {
+        "text": "把书房的灯调成橙色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "library"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "橙色",
+            "entity": "orange"
           }
         ]
       },
@@ -2706,19 +3315,91 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "living-room"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           },
           {
             "start": 8,
             "end": 10,
             "value": "橙色",
-            "entity": "color"
+            "entity": "orange"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的灯调成红色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "bedroom"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "红色",
+            "entity": "red"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的灯调成红色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "红色",
+            "entity": "red"
+          }
+        ]
+      },
+      {
+        "text": "把厕所的灯调成红色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厕所",
+            "entity": "washroom"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "红色",
+            "entity": "red"
+          }
+        ]
+      },
+      {
+        "text": "把书房的灯调成红色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "library"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "红色",
+            "entity": "red"
           }
         ]
       },
@@ -2730,19 +3411,91 @@
             "start": 1,
             "end": 3,
             "value": "客厅",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "灯带",
-            "entity": "lamp"
+            "entity": "strip-lamp"
           },
           {
             "start": 8,
             "end": 10,
             "value": "红色",
-            "entity": "color"
+            "entity": "red"
+          }
+        ]
+      },
+      {
+        "text": "把卧室的灯调成黄色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "卧室",
+            "entity": "bedroom"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "黄色",
+            "entity": "yellow"
+          }
+        ]
+      },
+      {
+        "text": "把客厅的灯调成黄色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "黄色",
+            "entity": "yellow"
+          }
+        ]
+      },
+      {
+        "text": "把厕所的灯调成黄色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "厕所",
+            "entity": "washroom"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "黄色",
+            "entity": "yellow"
+          }
+        ]
+      },
+      {
+        "text": "把书房的灯调成黄色",
+        "intent": "light-color",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "书房",
+            "entity": "library"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "黄色",
+            "entity": "yellow"
           }
         ]
       },
@@ -2754,19 +3507,19 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           },
           {
             "start": 8,
             "end": 10,
             "value": "黄色",
-            "entity": "color"
+            "entity": "yellow"
           }
         ]
       },
@@ -2788,13 +3541,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -2806,13 +3559,13 @@
             "start": 0,
             "end": 2,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 3,
             "end": 5,
             "value": "壁灯",
-            "entity": "lamp"
+            "entity": "wall-lamp"
           }
         ]
       },
@@ -2824,7 +3577,133 @@
             "start": 0,
             "end": 2,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
+          }
+        ]
+      },
+      {
+        "text": "卫生间的灯太亮了",
+        "intent": "light-dimming",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "卫生间",
+            "entity": "washroom"
+          }
+        ]
+      },
+      {
+        "text": "厕所的光线太亮了",
+        "intent": "light-dimming",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "厕所",
+            "entity": "washroom"
+          }
+        ]
+      },
+      {
+        "text": "卫生间的光线太亮了",
+        "intent": "light-dimming",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "卫生间",
+            "entity": "washroom"
+          }
+        ]
+      },
+      {
+        "text": "书房的光线太亮了",
+        "intent": "light-dimming",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "书房",
+            "entity": "library"
+          }
+        ]
+      },
+      {
+        "text": "书房的灯光太亮了",
+        "intent": "light-dimming",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "书房",
+            "entity": "library"
+          }
+        ]
+      },
+      {
+        "text": "玄关的灯光太亮了",
+        "intent": "light-dimming",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "玄关",
+            "entity": "doorway"
+          }
+        ]
+      },
+      {
+        "text": "卧室的台灯太亮了",
+        "intent": "light-dimming",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "卧室",
+            "entity": "bedroom"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "台灯",
+            "entity": "desk-lamp"
+          }
+        ]
+      },
+      {
+        "text": "客厅的灯太亮了",
+        "intent": "light-dimming",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "客厅",
+            "entity": "living-room"
+          }
+        ]
+      },
+      {
+        "text": "客厅的灯光太亮了",
+        "intent": "light-dimming",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "客厅",
+            "entity": "living-room"
+          }
+        ]
+      },
+      {
+        "text": "客厅的光线太亮了",
+        "intent": "light-dimming",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "客厅",
+            "entity": "living-room"
           }
         ]
       },
@@ -2851,7 +3730,139 @@
             "start": 0,
             "end": 2,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
+          }
+        ]
+      },
+      {
+        "text": "卧室的光线太暗了",
+        "intent": "light-brightening",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "卧室",
+            "entity": "bedroom"
+          }
+        ]
+      },
+      {
+        "text": "卧室的壁灯太暗了",
+        "intent": "light-brightening",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "卧室",
+            "entity": "bedroom"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "壁灯",
+            "entity": "wall-lamp"
+          }
+        ]
+      },
+      {
+        "text": "厕所的光线太暗了",
+        "intent": "light-brightening",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "厕所",
+            "entity": "washroom"
+          }
+        ]
+      },
+      {
+        "text": "卫生间的光线太暗了",
+        "intent": "light-brightening",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "卫生间",
+            "entity": "washroom"
+          }
+        ]
+      },
+      {
+        "text": "书房的光线太暗了",
+        "intent": "light-brightening",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "书房",
+            "entity": "library"
+          }
+        ]
+      },
+      {
+        "text": "书房的灯光太暗了",
+        "intent": "light-brightening",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "书房",
+            "entity": "library"
+          }
+        ]
+      },
+      {
+        "text": "玄关的灯光太暗了",
+        "intent": "light-brightening",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "玄关",
+            "entity": "doorway"
+          }
+        ]
+      },
+      {
+        "text": "客厅的灯太暗了",
+        "intent": "light-brightening",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "客厅",
+            "entity": "living-room"
+          }
+        ]
+      },
+      {
+        "text": "客厅的灯带太暗了",
+        "intent": "light-brightening",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "客厅",
+            "entity": "living-room"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "灯带",
+            "entity": "strip-lamp"
+          }
+        ]
+      },
+      {
+        "text": "厨房的灯太暗了",
+        "intent": "light-brightening",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "厨房",
+            "entity": "kitchen"
           }
         ]
       },
@@ -2863,7 +3874,7 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           }
         ]
       },
@@ -2875,13 +3886,13 @@
             "start": 1,
             "end": 3,
             "value": "卧室",
-            "entity": "room"
+            "entity": "bedroom"
           },
           {
             "start": 4,
             "end": 6,
             "value": "顶灯",
-            "entity": "room"
+            "entity": "ceiling-lamp"
           }
         ]
       }

@@ -8,7 +8,7 @@
         "intent_featurizer_mitie",
         "intent_classifier_sklearn"],
   "language": "zh",
-  "mitie_file": "./data/lc_zh_2.dat",
+  "mitie_file": "./private_data/lc_zh_2.dat",
   "path" : "./models",
-  "data" : "./data/examples/rasa/imio_lc_zh.json"
+  "data" : "./private_data/imio_lc_zh.json"
 }

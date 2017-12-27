@@ -75,6 +75,8 @@ class Project(object):
         finally:
             self._loader_lock.release()
 
+        print('[DEBUG] Model Name = %s' % model_name)
+        print('[DEBUG] Type of Model = %s' % type(self._models[model_name]))
         response = self._models[model_name].parse(text, time)
 
         self._end_read()

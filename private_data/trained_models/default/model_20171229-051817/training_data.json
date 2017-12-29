@@ -1,0 +1,4204 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "entities": [],
+        "text": "\u5f00\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [],
+        "text": "\u6253\u5f00\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [],
+        "text": "\u628a\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u9633\u53f0",
+            "end": 3,
+            "start": 1,
+            "entity": "veranda"
+          }
+        ],
+        "text": "\u628a\u9633\u53f0\u7684\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u5927\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "main-light"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u5927\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u9876\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u540a\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u540a\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u53f0\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "desk-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u53f0\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u53f0\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "desk-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u53f0\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u4e3b\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "main-light"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u4e3b\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u540a\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u540a\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u5c04\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u4e1c\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "east-wall"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 8,
+            "start": 6,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u4e1c\u5899\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 4,
+            "start": 2,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u5357\u5899",
+            "end": 6,
+            "start": 4,
+            "entity": "south-wall"
+          }
+        ],
+        "text": "\u6253\u5f00\u5ba2\u5385\u5357\u5899\u7684\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u5357\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "south-wall"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u5357\u5899\u7684\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u5357\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "south-wall"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 8,
+            "start": 6,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u5357\u5899\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 4,
+            "start": 2,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u5357\u5899",
+            "end": 6,
+            "start": 4,
+            "entity": "south-wall"
+          }
+        ],
+        "text": "\u6253\u5f00\u5367\u5ba4\u5357\u5899\u7684\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u5357\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "south-wall"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u5357\u5899\u7684\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u5357\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "south-wall"
+          },
+          {
+            "value": "\u706f\u5e26",
+            "end": 8,
+            "start": 6,
+            "entity": "strip-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u5357\u5899\u7684\u706f\u5e26\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u897f\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "west-wall"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u897f\u5899\u7684\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u897f\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "west-wall"
+          },
+          {
+            "value": "\u706f\u5e26",
+            "end": 8,
+            "start": 6,
+            "entity": "strip-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u897f\u5899\u7684\u706f\u5e26\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u897f\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "west-wall"
+          },
+          {
+            "value": "\u706f\u5e26",
+            "end": 8,
+            "start": 6,
+            "entity": "strip-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u897f\u5899\u7684\u706f\u5e26\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u5317\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "north-wall"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u5317\u5899\u7684\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u5317\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "north-wall"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u5317\u5899\u7684\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u5317\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "north-wall"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u5317\u5899\u7684\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u5317\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "north-wall"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 8,
+            "start": 6,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u5317\u5899\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u5317\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "north-wall"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 8,
+            "start": 6,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u5317\u5899\u7684\u5c04\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "end": 4,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "end": 4,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u5316\u5986\u706f",
+            "end": 8,
+            "start": 5,
+            "entity": "dressing-lamp"
+          }
+        ],
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u5316\u5986\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "end": 4,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u9876\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "end": 4,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u6d17\u624b\u95f4\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "end": 4,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u6d17\u624b\u95f4\u7684\u9876\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 3,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u5395\u6240\u7684\u9876\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 3,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5395\u6240\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u53f0\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "desk-lamp"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u53f0\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u843d\u5730\u706f",
+            "end": 7,
+            "start": 4,
+            "entity": "floor-lamp"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u843d\u5730\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u9605\u8bfb\u706f",
+            "end": 7,
+            "start": 4,
+            "entity": "reading-lamp"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u9605\u8bfb\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "kitchen"
+          }
+        ],
+        "text": "\u628a\u53a8\u623f\u7684\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "kitchen"
+          },
+          {
+            "value": "\u4e3b\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "main-light"
+          }
+        ],
+        "text": "\u628a\u53a8\u623f\u7684\u4e3b\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "end": 3,
+            "start": 1,
+            "entity": "doorway"
+          },
+          {
+            "value": "\u706f\u5e26",
+            "end": 6,
+            "start": 4,
+            "entity": "strip-lamp"
+          }
+        ],
+        "text": "\u628a\u7384\u5173\u7684\u706f\u5e26\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "end": 3,
+            "start": 1,
+            "entity": "doorway"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u628a\u7384\u5173\u7684\u5c04\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u95e8\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "doorway"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u95e8\u5385\u7684\u58c1\u706f\u6253\u5f00",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 4,
+            "start": 2,
+            "entity": "bedroom"
+          }
+        ],
+        "text": "\u6253\u5f00\u5367\u5ba4\u7684\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 4,
+            "start": 2,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u540a\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u6253\u5f00\u5367\u5ba4\u7684\u540a\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "end": 4,
+            "start": 2,
+            "entity": "doorway"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u6253\u5f00\u7384\u5173\u7684\u9876\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u95e8\u5385",
+            "end": 4,
+            "start": 2,
+            "entity": "doorway"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u6253\u5f00\u95e8\u5385\u7684\u5c04\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 4,
+            "start": 2,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u6253\u5f00\u5ba2\u5385\u7684\u9876\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 4,
+            "start": 2,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u4e1c\u5899",
+            "end": 6,
+            "start": 4,
+            "entity": "east-wall"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 9,
+            "start": 7,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u6253\u5f00\u5ba2\u5385\u4e1c\u5899\u7684\u58c1\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 4,
+            "start": 2,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u897f\u5899",
+            "end": 6,
+            "start": 4,
+            "entity": "west-wall"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 9,
+            "start": 7,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u6253\u5f00\u5ba2\u5385\u897f\u5899\u7684\u5c04\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "end": 5,
+            "start": 2,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u5316\u5986\u706f",
+            "end": 9,
+            "start": 6,
+            "entity": "dressing-lamp"
+          }
+        ],
+        "text": "\u6253\u5f00\u536b\u751f\u95f4\u7684\u5316\u5986\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "end": 5,
+            "start": 2,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 8,
+            "start": 6,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u6253\u5f00\u6d17\u624b\u95f4\u7684\u5c04\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "library"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u6253\u5f00\u4e66\u623f\u7684\u9876\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "library"
+          },
+          {
+            "value": "\u53f0\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "desk-lamp"
+          }
+        ],
+        "text": "\u6253\u5f00\u4e66\u623f\u7684\u53f0\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "library"
+          },
+          {
+            "value": "\u843d\u5730\u706f",
+            "end": 8,
+            "start": 5,
+            "entity": "floor-lamp"
+          }
+        ],
+        "text": "\u6253\u5f00\u4e66\u623f\u7684\u843d\u5730\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "library"
+          },
+          {
+            "value": "\u9605\u8bfb\u706f",
+            "end": 8,
+            "start": 5,
+            "entity": "reading-lamp"
+          }
+        ],
+        "text": "\u6253\u5f00\u4e66\u623f\u7684\u9605\u8bfb\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u6253\u5f00\u53a8\u623f\u7684\u9876\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "kitchen"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u6253\u5f00\u53a8\u623f\u7684\u5c04\u706f",
+        "intent": "light-on"
+      },
+      {
+        "entities": [],
+        "text": "\u5173\u4e86\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [],
+        "text": "\u628a\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u9633\u53f0",
+            "end": 3,
+            "start": 1,
+            "entity": "veranda"
+          }
+        ],
+        "text": "\u628a\u9633\u53f0\u7684\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u9876\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u540a\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u540a\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u53f0\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "desk-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u53f0\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u53f0\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "desk-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u53f0\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u540a\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u540a\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u5c04\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u4e1c\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "east-wall"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 8,
+            "start": 6,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u4e1c\u5899\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "end": 4,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "end": 4,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u5316\u5986\u706f",
+            "end": 8,
+            "start": 5,
+            "entity": "dressing-lamp"
+          }
+        ],
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u5316\u5986\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "end": 4,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u9876\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "end": 4,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u6d17\u624b\u95f4\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "end": 4,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u6d17\u624b\u95f4\u7684\u9876\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 3,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u5395\u6240\u7684\u9876\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 3,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5395\u6240\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u53f0\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "desk-lamp"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u53f0\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u843d\u5730\u706f",
+            "end": 7,
+            "start": 4,
+            "entity": "floor-lamp"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u843d\u5730\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u9605\u8bfb\u706f",
+            "end": 7,
+            "start": 4,
+            "entity": "reading-lamp"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u9605\u8bfb\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "kitchen"
+          }
+        ],
+        "text": "\u628a\u53a8\u623f\u7684\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "kitchen"
+          },
+          {
+            "value": "\u4e3b\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "main-light"
+          }
+        ],
+        "text": "\u628a\u53a8\u623f\u7684\u4e3b\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "end": 3,
+            "start": 1,
+            "entity": "doorway"
+          },
+          {
+            "value": "\u706f\u5e26",
+            "end": 6,
+            "start": 4,
+            "entity": "strip-lamp"
+          }
+        ],
+        "text": "\u628a\u7384\u5173\u7684\u706f\u5e26\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "end": 3,
+            "start": 1,
+            "entity": "doorway"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u628a\u7384\u5173\u7684\u5c04\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u95e8\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "doorway"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u95e8\u5385\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 4,
+            "start": 2,
+            "entity": "bedroom"
+          }
+        ],
+        "text": "\u5173\u4e86\u5367\u5ba4\u7684\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 4,
+            "start": 2,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u540a\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u5173\u4e86\u5367\u5ba4\u7684\u540a\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "end": 4,
+            "start": 2,
+            "entity": "doorway"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u5173\u4e86\u7384\u5173\u7684\u9876\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 4,
+            "start": 2,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u5173\u4e86\u5ba2\u5385\u7684\u9876\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 4,
+            "start": 2,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u4e1c\u5899",
+            "end": 6,
+            "start": 4,
+            "entity": "east-wall"
+          }
+        ],
+        "text": "\u5173\u6389\u5ba2\u5385\u4e1c\u5899\u7684\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 4,
+            "start": 2,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u4e1c\u5899",
+            "end": 6,
+            "start": 4,
+            "entity": "east-wall"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 9,
+            "start": 7,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u5173\u4e86\u5ba2\u5385\u4e1c\u5899\u7684\u58c1\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 4,
+            "start": 2,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u897f\u5899",
+            "end": 6,
+            "start": 4,
+            "entity": "west-wall"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 9,
+            "start": 7,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u5173\u4e86\u5ba2\u5385\u897f\u5899\u7684\u5c04\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "end": 5,
+            "start": 2,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u5316\u5986\u706f",
+            "end": 9,
+            "start": 6,
+            "entity": "dressing-lamp"
+          }
+        ],
+        "text": "\u5173\u4e86\u536b\u751f\u95f4\u7684\u5316\u5986\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "end": 5,
+            "start": 2,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 8,
+            "start": 6,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u5173\u4e86\u6d17\u624b\u95f4\u7684\u5c04\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "library"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u5173\u4e86\u4e66\u623f\u7684\u9876\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "library"
+          },
+          {
+            "value": "\u53f0\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "desk-lamp"
+          }
+        ],
+        "text": "\u5173\u4e86\u4e66\u623f\u7684\u53f0\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "library"
+          },
+          {
+            "value": "\u843d\u5730\u706f",
+            "end": 8,
+            "start": 5,
+            "entity": "floor-lamp"
+          }
+        ],
+        "text": "\u5173\u4e86\u4e66\u623f\u7684\u843d\u5730\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "library"
+          },
+          {
+            "value": "\u9605\u8bfb\u706f",
+            "end": 8,
+            "start": 5,
+            "entity": "reading-lamp"
+          }
+        ],
+        "text": "\u5173\u4e86\u4e66\u623f\u7684\u9605\u8bfb\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "kitchen"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u5173\u4e86\u53a8\u623f\u7684\u9876\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "kitchen"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u5173\u4e86\u53a8\u623f\u7684\u5c04\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [],
+        "text": "\u5173\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [],
+        "text": "\u628a\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u58c1\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [],
+        "text": "\u5173\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [],
+        "text": "\u5173\u6389\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [],
+        "text": "\u628a\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u9876\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u540a\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u540a\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u53f0\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "desk-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u53f0\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u53f0\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "desk-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u53f0\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u4e3b\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "main-light"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u4e3b\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u5927\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "main-light"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u5927\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u540a\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u540a\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u5c04\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u4e1c\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "east-wall"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 8,
+            "start": 6,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u4e1c\u5899\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u897f\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "west-wall"
+          },
+          {
+            "value": "\u706f\u5e26",
+            "end": 8,
+            "start": 6,
+            "entity": "strip-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u897f\u5899\u7684\u706f\u5e26\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u5357\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "south-wall"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u5357\u5899\u7684\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u5317\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "north-wall"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u5317\u5899\u7684\u706f\u5173\u4e86",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u5317\u5899",
+            "end": 5,
+            "start": 3,
+            "entity": "north-wall"
+          },
+          {
+            "value": "\u706f\u5e26",
+            "end": 8,
+            "start": 6,
+            "entity": "strip-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u5317\u5899\u7684\u706f\u5e26\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "end": 4,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "end": 4,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u5316\u5986\u706f",
+            "end": 8,
+            "start": 5,
+            "entity": "dressing-lamp"
+          }
+        ],
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u5316\u5986\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "end": 4,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u9876\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "end": 4,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u6d17\u624b\u95f4\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "end": 4,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u6d17\u624b\u95f4\u7684\u9876\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 3,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u5395\u6240\u7684\u9876\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 3,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5395\u6240\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u53f0\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "desk-lamp"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u53f0\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u843d\u5730\u706f",
+            "end": 7,
+            "start": 4,
+            "entity": "floor-lamp"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u843d\u5730\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u9605\u8bfb\u706f",
+            "end": 7,
+            "start": 4,
+            "entity": "reading-lamp"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u9605\u8bfb\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "kitchen"
+          }
+        ],
+        "text": "\u628a\u53a8\u623f\u7684\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u4e3b\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "main-light"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u4e3b\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u4e3b\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "main-light"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u4e3b\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "kitchen"
+          },
+          {
+            "value": "\u4e3b\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "main-light"
+          }
+        ],
+        "text": "\u628a\u53a8\u623f\u7684\u4e3b\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "end": 3,
+            "start": 1,
+            "entity": "doorway"
+          },
+          {
+            "value": "\u706f\u5e26",
+            "end": 6,
+            "start": 4,
+            "entity": "strip-lamp"
+          }
+        ],
+        "text": "\u628a\u7384\u5173\u7684\u706f\u5e26\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "end": 3,
+            "start": 1,
+            "entity": "doorway"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u628a\u7384\u5173\u7684\u5c04\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u95e8\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "doorway"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u95e8\u5385\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 4,
+            "start": 2,
+            "entity": "bedroom"
+          }
+        ],
+        "text": "\u5173\u6389\u5367\u5ba4\u7684\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 4,
+            "start": 2,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u540a\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u5173\u6389\u5367\u5ba4\u7684\u540a\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "end": 4,
+            "start": 2,
+            "entity": "doorway"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u5173\u6389\u7384\u5173\u7684\u9876\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u95e8\u5385",
+            "end": 4,
+            "start": 2,
+            "entity": "doorway"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u5173\u6389\u95e8\u5385\u7684\u5c04\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 4,
+            "start": 2,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u5173\u6389\u5ba2\u5385\u7684\u9876\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 4,
+            "start": 2,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u4e1c\u5899",
+            "end": 6,
+            "start": 4,
+            "entity": "east-wall"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 9,
+            "start": 7,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u5173\u6389\u5ba2\u5385\u4e1c\u5899\u7684\u58c1\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 4,
+            "start": 2,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u897f\u5899",
+            "end": 6,
+            "start": 4,
+            "entity": "west-wall"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 9,
+            "start": 7,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u5173\u6389\u5ba2\u5385\u897f\u5899\u7684\u5c04\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "end": 5,
+            "start": 2,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u5316\u5986\u706f",
+            "end": 9,
+            "start": 6,
+            "entity": "dressing-lamp"
+          }
+        ],
+        "text": "\u5173\u6389\u536b\u751f\u95f4\u7684\u5316\u5986\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u6d17\u624b\u95f4",
+            "end": 5,
+            "start": 2,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 8,
+            "start": 6,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u5173\u6389\u6d17\u624b\u95f4\u7684\u5c04\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "library"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u5173\u6389\u4e66\u623f\u7684\u9876\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "library"
+          },
+          {
+            "value": "\u53f0\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "desk-lamp"
+          }
+        ],
+        "text": "\u5173\u6389\u4e66\u623f\u7684\u53f0\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "library"
+          },
+          {
+            "value": "\u843d\u5730\u706f",
+            "end": 8,
+            "start": 5,
+            "entity": "floor-lamp"
+          }
+        ],
+        "text": "\u5173\u6389\u4e66\u623f\u7684\u843d\u5730\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "library"
+          },
+          {
+            "value": "\u9605\u8bfb\u706f",
+            "end": 8,
+            "start": 5,
+            "entity": "reading-lamp"
+          }
+        ],
+        "text": "\u5173\u6389\u4e66\u623f\u7684\u9605\u8bfb\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "kitchen"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u5173\u6389\u53a8\u623f\u7684\u9876\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "end": 4,
+            "start": 2,
+            "entity": "kitchen"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 7,
+            "start": 5,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u5173\u6389\u53a8\u623f\u7684\u5c04\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [],
+        "text": "\u5173\u706f",
+        "intent": "light-off"
+      },
+      {
+        "entities": [],
+        "text": "\u628a\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u58c1\u706f\u5173\u6389",
+        "intent": "light-off"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u767d\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "white"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u706f\u8c03\u6210\u767d\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u767d\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "white"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u706f\u8c03\u6210\u767d\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 3,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u767d\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "white"
+          }
+        ],
+        "text": "\u628a\u5395\u6240\u7684\u706f\u8c03\u6210\u767d\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u767d\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "white"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u706f\u8c03\u6210\u767d\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u7d2b\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "purple"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u706f\u8c03\u6210\u7d2b\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u7d2b\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "purple"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u706f\u8c03\u6210\u7d2b\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 3,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u7d2b\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "purple"
+          }
+        ],
+        "text": "\u628a\u5395\u6240\u7684\u706f\u8c03\u6210\u7d2b\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u7d2b\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "purple"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u706f\u8c03\u6210\u7d2b\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u706f\u5e26",
+            "end": 6,
+            "start": 4,
+            "entity": "strip-lamp"
+          },
+          {
+            "value": "\u767d\u8272",
+            "end": 10,
+            "start": 8,
+            "entity": "white"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u706f\u5e26\u8c03\u6210\u767d\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          },
+          {
+            "value": "\u7d2b\u8272",
+            "end": 10,
+            "start": 8,
+            "entity": "purple"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u58c1\u706f\u8c03\u6210\u7d2b\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u84dd\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "blue"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u706f\u8c03\u6210\u84dd\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u84dd\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "blue"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u706f\u8c03\u6210\u84dd\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 3,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u84dd\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "blue"
+          }
+        ],
+        "text": "\u628a\u5395\u6240\u7684\u706f\u8c03\u6210\u84dd\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u84dd\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "blue"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u706f\u8c03\u6210\u84dd\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          },
+          {
+            "value": "\u84dd\u8272",
+            "end": 10,
+            "start": 8,
+            "entity": "blue"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u58c1\u706f\u8c03\u6210\u84dd\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u7eff\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "green"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u706f\u8c03\u6210\u7eff\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u7eff\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "green"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u706f\u8c03\u6210\u7eff\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 3,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u7eff\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "green"
+          }
+        ],
+        "text": "\u628a\u5395\u6240\u7684\u706f\u8c03\u6210\u7eff\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u7eff\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "green"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u706f\u8c03\u6210\u7eff\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          },
+          {
+            "value": "\u7eff\u8272",
+            "end": 10,
+            "start": 8,
+            "entity": "green"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u58c1\u706f\u8c03\u6210\u7eff\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u6a59\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "orange"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u706f\u8c03\u6210\u6a59\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u6a59\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "orange"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u706f\u8c03\u6210\u6a59\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 3,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u6a59\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "orange"
+          }
+        ],
+        "text": "\u628a\u5395\u6240\u7684\u706f\u8c03\u6210\u6a59\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u6a59\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "orange"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u706f\u8c03\u6210\u6a59\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          },
+          {
+            "value": "\u6a59\u8272",
+            "end": 10,
+            "start": 8,
+            "entity": "orange"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u58c1\u706f\u8c03\u6210\u6a59\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u7ea2\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "red"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u706f\u8c03\u6210\u7ea2\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u7ea2\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "red"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u706f\u8c03\u6210\u7ea2\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 3,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u7ea2\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "red"
+          }
+        ],
+        "text": "\u628a\u5395\u6240\u7684\u706f\u8c03\u6210\u7ea2\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u7ea2\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "red"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u706f\u8c03\u6210\u7ea2\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u706f\u5e26",
+            "end": 6,
+            "start": 4,
+            "entity": "strip-lamp"
+          },
+          {
+            "value": "\u7ea2\u8272",
+            "end": 10,
+            "start": 8,
+            "entity": "red"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u706f\u5e26\u8c03\u6210\u7ea2\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u9ec4\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "yellow"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u706f\u8c03\u6210\u9ec4\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u9ec4\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "yellow"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u706f\u8c03\u6210\u9ec4\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 3,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u9ec4\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "yellow"
+          }
+        ],
+        "text": "\u628a\u5395\u6240\u7684\u706f\u8c03\u6210\u9ec4\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u9ec4\u8272",
+            "end": 9,
+            "start": 7,
+            "entity": "yellow"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u706f\u8c03\u6210\u9ec4\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          },
+          {
+            "value": "\u9ec4\u8272",
+            "end": 10,
+            "start": 8,
+            "entity": "yellow"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u58c1\u706f\u8c03\u6210\u9ec4\u8272",
+        "intent": "light-color"
+      },
+      {
+        "entities": [],
+        "text": "\u592a\u4eae\u4e86",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [],
+        "text": "\u706f\u5149\u592a\u4eae\u4e86",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [],
+        "text": "\u628a\u706f\u8c03\u6697",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [],
+        "text": "\u628a\u706f\u8c03\u6697\u4e00\u70b9",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u58c1\u706f\u8c03\u6697\u4e00\u70b9",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 2,
+            "start": 0,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 5,
+            "start": 3,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u5367\u5ba4\u7684\u58c1\u706f\u592a\u4eae\u4e86",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 2,
+            "start": 0,
+            "entity": "bedroom"
+          }
+        ],
+        "text": "\u5367\u5ba4\u7684\u706f\u592a\u4eae\u4e86",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u843d\u5730\u706f",
+            "end": 7,
+            "start": 4,
+            "entity": "floor-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u843d\u5730\u706f\u8c03\u6697\u4e00\u70b9",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "end": 3,
+            "start": 0,
+            "entity": "washroom"
+          }
+        ],
+        "text": "\u536b\u751f\u95f4\u7684\u706f\u592a\u4eae\u4e86",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 3,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u628a\u5395\u6240\u7684\u58c1\u706f\u8c03\u6697\u4e00\u70b9",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 3,
+            "start": 1,
+            "entity": "washroom"
+          }
+        ],
+        "text": "\u628a\u5395\u6240\u7684\u706f\u8c03\u6697\u4e00\u70b9",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 2,
+            "start": 0,
+            "entity": "washroom"
+          }
+        ],
+        "text": "\u5395\u6240\u7684\u5149\u7ebf\u592a\u4eae\u4e86",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "end": 3,
+            "start": 0,
+            "entity": "washroom"
+          }
+        ],
+        "text": "\u536b\u751f\u95f4\u7684\u5149\u7ebf\u592a\u4eae\u4e86",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 2,
+            "start": 0,
+            "entity": "library"
+          }
+        ],
+        "text": "\u4e66\u623f\u7684\u706f\u592a\u4eae\u4e86",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 2,
+            "start": 0,
+            "entity": "library"
+          }
+        ],
+        "text": "\u4e66\u623f\u7684\u5149\u7ebf\u592a\u4eae\u4e86",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 2,
+            "start": 0,
+            "entity": "library"
+          }
+        ],
+        "text": "\u4e66\u623f\u7684\u706f\u5149\u592a\u4eae\u4e86",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u706f\u8c03\u6697\u4e00\u70b9",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "end": 2,
+            "start": 0,
+            "entity": "doorway"
+          }
+        ],
+        "text": "\u7384\u5173\u7684\u706f\u5149\u592a\u4eae\u4e86",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "end": 3,
+            "start": 1,
+            "entity": "doorway"
+          },
+          {
+            "value": "\u5c04\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "spotlight"
+          }
+        ],
+        "text": "\u628a\u7384\u5173\u7684\u5c04\u706f\u8c03\u6697\u4e00\u70b9",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 2,
+            "start": 0,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u53f0\u706f",
+            "end": 5,
+            "start": 3,
+            "entity": "desk-lamp"
+          }
+        ],
+        "text": "\u5367\u5ba4\u7684\u53f0\u706f\u592a\u4eae\u4e86",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "end": 2,
+            "start": 0,
+            "entity": "kitchen"
+          }
+        ],
+        "text": "\u53a8\u623f\u7684\u706f\u592a\u4eae\u4e86",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 2,
+            "start": 0,
+            "entity": "living-room"
+          }
+        ],
+        "text": "\u5ba2\u5385\u7684\u706f\u592a\u4eae\u4e86",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 2,
+            "start": 0,
+            "entity": "living-room"
+          }
+        ],
+        "text": "\u5ba2\u5385\u7684\u706f\u5149\u592a\u4eae\u4e86",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 2,
+            "start": 0,
+            "entity": "living-room"
+          }
+        ],
+        "text": "\u5ba2\u5385\u7684\u5149\u7ebf\u592a\u4eae\u4e86",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u9876\u706f\u8c03\u6697\u4e00\u70b9",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 3,
+            "start": 1,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u706f\u5e26",
+            "end": 6,
+            "start": 4,
+            "entity": "strip-lamp"
+          }
+        ],
+        "text": "\u628a\u5ba2\u5385\u7684\u706f\u5e26\u8c03\u6697\u4e00\u70b9",
+        "intent": "light-dimming"
+      },
+      {
+        "entities": [],
+        "text": "\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [],
+        "text": "\u5149\u7ebf\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [],
+        "text": "\u706f\u5149\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [],
+        "text": "\u628a\u706f\u8c03\u4eae",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [],
+        "text": "\u628a\u706f\u8c03\u4eae\u4e00\u70b9",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [],
+        "text": "\u628a\u706f\u5149\u8c03\u4eae\u4e00\u70b9",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 2,
+            "start": 0,
+            "entity": "bedroom"
+          }
+        ],
+        "text": "\u5367\u5ba4\u7684\u706f\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 2,
+            "start": 0,
+            "entity": "bedroom"
+          }
+        ],
+        "text": "\u5367\u5ba4\u7684\u706f\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 2,
+            "start": 0,
+            "entity": "bedroom"
+          }
+        ],
+        "text": "\u5367\u5ba4\u7684\u5149\u7ebf\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 2,
+            "start": 0,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u58c1\u706f",
+            "end": 5,
+            "start": 3,
+            "entity": "wall-lamp"
+          }
+        ],
+        "text": "\u5367\u5ba4\u7684\u58c1\u706f\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u5927\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "main-light"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u5927\u706f\u8c03\u4eae\u4e00\u70b9",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 2,
+            "start": 0,
+            "entity": "washroom"
+          }
+        ],
+        "text": "\u5395\u6240\u7684\u706f\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 2,
+            "start": 0,
+            "entity": "washroom"
+          }
+        ],
+        "text": "\u5395\u6240\u7684\u5149\u7ebf\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5395\u6240",
+            "end": 3,
+            "start": 1,
+            "entity": "washroom"
+          },
+          {
+            "value": "\u5927\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "main-light"
+          }
+        ],
+        "text": "\u628a\u5395\u6240\u7684\u5927\u706f\u8c03\u4eae\u4e00\u70b9",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "end": 3,
+            "start": 0,
+            "entity": "washroom"
+          }
+        ],
+        "text": "\u536b\u751f\u95f4\u7684\u5149\u7ebf\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 2,
+            "start": 0,
+            "entity": "library"
+          }
+        ],
+        "text": "\u4e66\u623f\u7684\u706f\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 2,
+            "start": 0,
+            "entity": "library"
+          }
+        ],
+        "text": "\u4e66\u623f\u7684\u5149\u7ebf\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 2,
+            "start": 0,
+            "entity": "library"
+          }
+        ],
+        "text": "\u4e66\u623f\u7684\u706f\u5149\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 2,
+            "start": 0,
+            "entity": "library"
+          },
+          {
+            "value": "\u9605\u8bfb\u706f",
+            "end": 6,
+            "start": 3,
+            "entity": "reading-lamp"
+          }
+        ],
+        "text": "\u4e66\u623f\u7684\u9605\u8bfb\u706f\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u4e66\u623f",
+            "end": 3,
+            "start": 1,
+            "entity": "library"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u4e66\u623f\u7684\u9876\u706f\u8c03\u4eae\u4e00\u70b9",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u536b\u751f\u95f4",
+            "end": 4,
+            "start": 1,
+            "entity": "washroom"
+          }
+        ],
+        "text": "\u628a\u536b\u751f\u95f4\u7684\u706f\u8c03\u4eae\u4e00\u70b9",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u7384\u5173",
+            "end": 2,
+            "start": 0,
+            "entity": "doorway"
+          }
+        ],
+        "text": "\u7384\u5173\u7684\u706f\u5149\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 2,
+            "start": 0,
+            "entity": "living-room"
+          }
+        ],
+        "text": "\u5ba2\u5385\u7684\u706f\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5ba2\u5385",
+            "end": 2,
+            "start": 0,
+            "entity": "living-room"
+          },
+          {
+            "value": "\u706f\u5e26",
+            "end": 5,
+            "start": 3,
+            "entity": "strip-lamp"
+          }
+        ],
+        "text": "\u5ba2\u5385\u7684\u706f\u5e26\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u53a8\u623f",
+            "end": 2,
+            "start": 0,
+            "entity": "kitchen"
+          }
+        ],
+        "text": "\u53a8\u623f\u7684\u706f\u592a\u6697\u4e86",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u706f\u8c03\u4eae\u4e00\u70b9",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u53f0\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "desk-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u53f0\u706f\u8c03\u4eae\u4e00\u70b9",
+        "intent": "light-brightening"
+      },
+      {
+        "entities": [
+          {
+            "value": "\u5367\u5ba4",
+            "end": 3,
+            "start": 1,
+            "entity": "bedroom"
+          },
+          {
+            "value": "\u9876\u706f",
+            "end": 6,
+            "start": 4,
+            "entity": "ceiling-lamp"
+          }
+        ],
+        "text": "\u628a\u5367\u5ba4\u7684\u9876\u706f\u8c03\u4eae\u4e00\u70b9",
+        "intent": "light-brightening"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
